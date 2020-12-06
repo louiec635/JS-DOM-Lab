@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Thermometer Application</title>
+</head>
+<body>
+            <div id="convertorContainer">
+
+                <div id="topRow">
+                    <h1>Temperature Scale Convertor</h1>
+                </div>
+
+                <div id="valueScale">
+                    <label for="scaleType" id="scaleText">Scale</label>
+                    <label for="tempValueBox" id="tempValueText">Value</label> 
+                </div>
+
+                <div id="midRow">
+                    <select name="scaleType" id="scaleType">
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="rankine">Rankine</option>
+                    </select>
+                    <input type="text" id="tempValueBox" name="tempValue"> 
+                    <button type="button" id="calcButton">Calculate</button>
+                </div>
+
+                <div id="bottomRow">
+                    <span id="fahrenheitTitle">Fahrenheit</span>
+                    <span id="celsiusTitle">Celsius</span>
+                    <span id="kelvinTitle">Kelvin</span>
+                    <span id="rankineTitle">Rankine</span>
+                </div>
+
+                <div id="bottomRowOutput">
+                    <div id="fahrenheitVal" class="outputValueBox">
+                        <span>0 F</span>
+                    </div>
+                    <div id="celsiusVal" class="outputValueBox">
+                        <span>0 C</span>
+                    </div>
+                    <div id="kelvinVal" class="outputValueBox">
+                        <span>0 K</span>
+                    </div>
+                    <div id="rankineVal" class="outputValueBox">
+                        <span>0 R</span>
+                    </div>
+                </div>
+                
+            </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+
+#convertorContainer {
+    width: 720px;
+    height: 420px;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+#topRow {
+    font-size: 25px;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+
+#midRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 90px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#valueScale {
+    font-size: 22px;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+#scaleText {
+    margin-left: 80px;
+}
+
+#tempValueText {
+    margin-left: 200px;
+}
+
+#tempValueBox {
+    width: 160px;
+    height: 35px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#calcButton {
+    width: 160px;
+    height: 40px;
+    background-color: #dde8faff;
+    border: 2px solid #728ebbff;
+    font-size: 20px;
+}
+
+#bottomRow {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#bottomRowOutput {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#scaleType {
+    width: 160px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#celsiusVal {
+    margin-left: 20px;
+}
+
+.outputValueBox {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
